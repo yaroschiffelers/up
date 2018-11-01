@@ -15,7 +15,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
-## [0.1.1] - 2018-11-01 
+## [0.1.2] - 2018-11-01
+### Added 
+- Github Pages support 
+
+## [0.1.1] - 2018-11-01 - [419b8b59b25cd5b75eda1729d5917774503e9139]
 ### Added 
 - Github issue templates
 
