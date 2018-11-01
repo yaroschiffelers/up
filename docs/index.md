@@ -77,12 +77,10 @@ module.exports = {
 
 If you want to learn how to write your own modules, take a look at this [quick tutorial](./writing-modules.md)
 
-###
-
 ## Examples
 **Write a quick email**
 
-![](./docs/media/up-quick-email.gif)
+![](./media/up-quick-email.gif)
 
 **Create a new Trello board** 
 

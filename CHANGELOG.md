@@ -15,7 +15,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
-## [0.1.3] - 2018-11-01
+## [0.1.4] - 2018-11-01
+### [FIX] 
+- [DOCS] Corrected invalid link to './media' directory
+- [DOCS] Removed empty sub-title ```###``` prefix
+
+## [0.1.3] - 2018-11-01 - [5ab263ca36bb1f3f37d12d309743329709cb9f87]
 ### Added 
 - [DOCS] Site name and description in _config.yml
 - [DOCS] Introduction page (index.md) 
