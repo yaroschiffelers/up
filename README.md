@@ -75,7 +75,7 @@ module.exports = {
 }
 ``` 
 
-If you want to learn how to write your own modules, take a look at this [quick tutorial](./writing-modules.md)
+If you want to learn how to write your own modules, take a look at this [quick tutorial](https://yaroschiffelers.github.io/up/writing-modules.html)
 
 ###
 
