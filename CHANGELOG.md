@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 - [DOCS] How to write modules 
 - [DOCS] How to use the default modules 
-- [DOCS] 
+- [DOCS] General usage tutorial
 - [FEATURE] Shortcuts (quick access to modules)
 - [FEATURE] Work flow support (module and method chaining)
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
+
+## [0.1.1] - 2018-11-01 
+### Added 
+- Github issue templates
 
 ## [0.1.0] - 2018-10-30 - [28b74780021f2d5ddc945a3b80daeebab6ba736f]
 ### Added 

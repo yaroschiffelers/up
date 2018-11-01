@@ -1,6 +1,6 @@
 {
   "name": "up",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A modular command line framework to automate tasks and common workflows",
   "author": "Yaro Schiffelers",
   "license": "MIT",
