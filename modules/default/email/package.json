@@ -1,0 +1,20 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "email things",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "email",
+    "up",
+    "upmodule"
+  ],
+  "author": "Yaro Schiffelers",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^4.6.8",
+    "ora": "^3.0.0"
+  }
+}

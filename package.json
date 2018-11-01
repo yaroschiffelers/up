@@ -1,0 +1,65 @@
+{
+  "name": "up",
+  "version": "0.1.0",
+  "description": "A modular command line framework to automate tasks and common workflows",
+  "author": "Yaro Schiffelers",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "flow": "yarn run flow status",
+    "build": ". build.sh",
+    "build:babel": "NODE_ENV=production babel dist/index.js dist/lib/",
+    "prettier": "prettier --config .prettierrc.json --ignore-path .prettierignore --write index.js \"lib/**/*.js\"",
+    "lint": "eslint --cache -c .eslintrc.json index.js lib/ ",
+    "lint:fix": "eslint --cache -c .eslintrc.json --fix index.js lib/ ",
+    "prePublish": "yarn run build",
+    "publish": "npm run release && git push --follow-tags origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "dotenv": "^6.0.0",
+    "inquirer": "^6.0.0",
+    "junk": "^2.1.0",
+    "lodash": "^4.17.11",
+    "ora": "^3.0.0",
+    "vue": "^2.5.17",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "flow-bin": "^0.85.0",
+    "mocha": "^5.2.0",
+    "prettier": "1.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/yaroschiffelers/up.git"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "scaffold",
+    "workflow",
+    "automate",
+    "tasks",
+    "framework",
+    "project magement",
+    "cli",
+    "command line",
+    "terminal"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "up": "./index.js"
+  }
+}

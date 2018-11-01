@@ -1,0 +1,15 @@
+# Exclude everything in /modules
+modules/*
+# Exclude node_modules in modules/default/
+modules/default/*/**/node_modules/
+# Include the default modules
+!modules/default/
+
+node_modules/
+yarn-error.log
+.eslintcache
+.DS_Store
+.env
+
+idea/
+dist/

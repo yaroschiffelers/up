@@ -1,0 +1,15 @@
+{
+  "name": "up-trello",
+  "version": "1.0.0",
+  "description": "up-trello module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaro Schiffelers",
+  "license": "MIT",
+  "dependencies": {
+    "nightmare": "^3.0.1",
+    "ora": "^3.0.0"
+  }
+}

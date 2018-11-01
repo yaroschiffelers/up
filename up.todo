@@ -1,0 +1,22 @@
+V1.0.0
+ ☐ write documentation
+   ☐ Contributing
+   ☐ How to write modules
+ ☐ add documentation to github pages (https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch)
+ ☐ setup flow config
+ ☐ Add a install.sh script (installing Up for new users)
+ ☐ Add general package.json to modules/default (perhaps), and add 'npm install' to the install.sh script
+ ☐ better navigation (quick commands)
+ ☐ add a database containing the indexed modules (boot up faster)
+ ☐ method chaining --- constructing work flows out of individual actions
+ ☐ general default modules
+ ☐ index of available modules
+ ☐ Mocha and Chai tests
+ ☐ E2E Nightwatch tests
+ ☐ publish package at NPM and Yarn(https://yarnpkg.com/en/docs/publishing-a-package)
+ ☐ complete flow.js coverage
+ ☐ Better exception and error handling (mostly focused on reading modules and executing actions)
+
+V2.0.0
+ ☐ Split core and cli into two seperate packages
+ ☐
