@@ -9,13 +9,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 - [DOCS] How to write modules 
 - [DOCS] How to use the default modules 
-- [DOCS] General usage tutorial
+- [DOCS] General usage tutorial 
 - [FEATURE] Shortcuts (quick access to modules)
 - [FEATURE] Work flow support (module and method chaining)
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
-## [0.1.2] - 2018-11-01
+## [0.1.3] - 2018-11-01
+### Added 
+- [DOCS] Site name and description in _config.yml
+- [DOCS] Introduction page (index.md) 
+- [DOCS] Setup 'writing-modules' page 
+- [DOCS] Modules introduction section 
+- [DOCS] README.md resembles docs/index.md 
+- New items to up.todo  
+
+### Changed 
+- Small edit in 'description' (package.json), so it matches the Github description
+
+## [0.1.2] - 2018-11-01 - [d021cd94c183567dd0f46c0a8155a33b2a9325c6]
 ### Added 
 - Github Pages support 
 

@@ -5,7 +5,7 @@
 
 > A modular command line framework to automate tasks and common work flows.
 
-**Up is currently in beta, there will be breaking changes by the time v1.0.0 is released**
+**Up is currently in beta, there will be breaking changes by the time v1.0.0 is released** 
 
 ## Introduction 
 Up makes it easy to define and run common tasks, both stand-alone or interactively (asking some predefined questions). Tasks can be chained to create a work flow. 
