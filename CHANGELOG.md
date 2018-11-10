@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
-## [0.1.6] - 2018-11-11
+## [0.1.7] - 2018-11-11
 ### Added 
 - [FEATURE] assert methods 
 - [FEATURE] file system methods (in ```files.js```)
@@ -35,8 +35,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [CHORE] build.sh moved to ```./scripts``` 
 - [CHORE] install.sh moved to ```./scripts``` 
 - [CHORE] correct link pointing to ```./srcipts/build.sh``` for ```build``` command.
-- [FEATURE] Install.sh now installs Node.js (if not installed)
-- [FEATURE] Tree-model package
 
 ## [0.1.5] - 2018-11-01 - [1c3454237b9862c79ad253adbc229b496c442ca4]
 ### Fixed 
