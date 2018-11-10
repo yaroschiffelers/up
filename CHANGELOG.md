@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
+## [0.1.9] - 2018-11-11
+### Added
+- [FEATURE] Core classes: Module, Action, Constructor 
+
 ## [0.1.8] - 2018-11-11
 ### Added
 - [FEATURE] Abstract Module Tree setup 
