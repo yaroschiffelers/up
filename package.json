@@ -1,6 +1,6 @@
 {
   "name": "up",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A modular command line framework for automating tasks and common workflows",
   "author": "Yaro Schiffelers",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node index.js",
     "flow": "yarn run flow status",
-    "build": ". build.sh",
+    "build": ". scripts/build.sh",
     "build:babel": "NODE_ENV=production babel dist/index.js dist/lib/",
     "prettier": "prettier --config .prettierrc.json --ignore-path .prettierignore --write index.js \"lib/**/*.js\"",
     "lint": "eslint --cache -c .eslintrc.json index.js lib/ ",
@@ -24,6 +24,7 @@
     "junk": "^2.1.0",
     "lodash": "^4.17.11",
     "ora": "^3.0.0",
+    "tree-model": "^1.0.7",
     "vue": "^2.5.17",
     "vuex": "^3.0.1"
   },

@@ -15,10 +15,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
-## [0.1.5] - 
+## [0.1.6] - 2018-11-11
+### Added 
+- [CHORE] build.sh moved to ```./scripts``` 
+- [CHORE] install.sh moved to ```./scripts``` 
+- [CHORE] correct link pointing to ```./srcipts/build.sh``` for ```build``` command.
+- [FEATURE] Install.sh now installs Node.js (if not installed)
+- [FEATURE] Tree-model package
+
+## [0.1.5] - 2018-11-01 - [1c3454237b9862c79ad253adbc229b496c442ca4]
 ### Fixed 
 - [DOCS] Corrected 'quick-tutorial' link in README.md#Modules
-- 
+
+## Added 
+- [FEATURE] Change command shortcut method.
+- [FEATURE] Setup for ```install.sh``` script.
+- [CHORE] ```scripts``` directory. All build/install scripts should be placed here.
 
 ## [0.1.4] - 2018-11-01 - [71cc900ab7f5953fe24e5e80fc6520d81cef398c]
 ### Fixed 
