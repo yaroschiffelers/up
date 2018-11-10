@@ -2,23 +2,30 @@ V1.0.0
  ☐ Write documentation
    ☐ Contributing
    ☐ How to write modules
- ✔ add documentation to github pages (https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch) @done (18-11-01 18:31)
- ☐ Setup flow config
- ☐ Add a install.sh script (installing Up for new users)
- ☐ Add general package.json to modules/default (perhaps), and add 'npm install' to the install.sh script
- ☐ Better navigation (quick commands)
- ☐ Add a database containing the indexed modules (boot up faster)
+   ☐ Index of available modules
+☐ Features
  ☐ Method chaining --- constructing work flows out of individual actions
+ ☐ Better navigation (quick commands)
+ ☐ There might be no 'question' object present (since it's not mandatory) in a module. Up needs to know that this is ok, and continue running without calling the non existent questions object with cli.prompt
+ ☐ Add general package.json to modules/default (perhaps), and add 'npm install' to the install.sh script
+ ☐ Finish a install.sh script (installing Up for new users)
  ☐ General default modules
- ☐ Index of available modules
+ ☐ Add a database containing the indexed modules (boot up faster)
+ ☐ Async store actions that take care of actions that use promises
+ ☐ Better exception and error handling (mostly focused on reading modules and executing actions)
+☐ Dev
+ ☐ Setup flow config (keeps looping/does nothing (recursion problem)).
  ☐ Mocha and Chai tests
- ☐ E2E Nightwatch tests
  ☐ Publish package at NPM and Yarn(https://yarnpkg.com/en/docs/publishing-a-package)
  ☐ Complete flow.js coverage
- ☐ Better exception and error handling (mostly focused on reading modules and executing actions)
  ☐ Handle method action return values more conscious
- ☐ Async store actions that take care of actions that use promises
- ☐ There might be no 'question' object present (since it's not mandatory) in a module. Up needs to know that this is ok, and continue running without calling the non existent questions object with cli.prompt
+
+[-- DONE --]
+ ✔ add documentation to github pages (https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch) @done (18-11-01 18:31)
+ ☐- Remove file system utility functions from ```lib/utils/functional.js```
+ ☐- Add export object to ```lib/utils/files.js```
+ ☐- Change the way the utility methods are exported; don't differentiate between different categories. Create one utilities object and selectively require methods (via object deconstructing (const { method1, method2 } = require('./utils')))
 
 V2.0.0
  ☐ Split Up-core and Up-CLI into two separate packages
+ ☐ ...

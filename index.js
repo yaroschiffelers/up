@@ -9,7 +9,7 @@
 require('dotenv').config()
 const path = require('path')
 const config = require('./up.config.js')
-const { version } = require('./package.json')
+const { version, bin } = require('./package.json')
 const { Up, cli, store, log } = require('./lib')
 
 /**
@@ -24,6 +24,15 @@ global.__env = process.env
  * @type {global}
  */
 global.__rootDir = path.resolve(__dirname)
+
+/**
+ * Test function. Internal use only.
+ * Init up with -t flag to run whatever is inside of this function.
+ * Remove in production build.
+ */
+const test = () => {
+    console.log('No test specified')
+}
 
 /**
  * Terminal arguments/flags
@@ -65,9 +74,7 @@ const runDefault = async () => {
       type: 'list',
       choices: up.getModuleNames()
     },
-    (err, res) => {
-      err ? up.throwError(err) : up.setCurrentModule(res.MODULE)
-    }
+    (err, res) => (err ? up.throwError(err) : up.setCurrentModule(res.MODULE))
   )
 
   /**
@@ -135,10 +142,30 @@ if (!argv.length) {
     /**
      * Create a new module file from scratch.
      * flag: -c
-     * params: -c [name] - default name || name of the new module
+     * params: -c [name] - default name || name of the new module.
      */
     case '-c':
-      up.createNewModule(argv[1])
+      const config = { name: argv[1] }
+      up.createNewModule(config)
+      break
+
+    /**
+     * Let the user create a custom up cli shortcut.
+     * flag: --change-command
+     * params: --change-command [name] - name of the new command.
+     */
+    case '--change-command':
+      console.log('Change command is still a work in process')
+      // const name = argv[1]
+      // up.changeCommandName(bin, name)
+      break
+
+    /**
+     * Test command, for internal use/testing/debugging.
+     * Calls the test() function.
+     */
+    case '-t':
+      test()
       break
 
     /**

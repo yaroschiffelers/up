@@ -1,4 +1,7 @@
 #!/bin/bash
+# Build the production version of Up.
+# @author Yaro Schiffelers - 2018
+# @license MIT
 
 # Clean the dist folder
 rm -rf dist/*
