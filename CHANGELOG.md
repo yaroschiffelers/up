@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
+## [0.1.11] - 2018-11-11
+### Added
+- resetState method (mutation and action) in store.
+
 ## [0.1.10] - 2018-11-11
 ### Added
 - [FEATURE] Empty ```test``` function, callable with the ```-t``` flag. ```up -t```. 
