@@ -17,6 +17,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.1.6] - 2018-11-11
 ### Added 
+- [FEATURE] assert methods 
+- [FEATURE] file system methods (in ```files.js```)
+
+### Changed 
+- [CHORE] Turned utils into one object, use object deconstructing while importing individual methods from now on. 
+- [CHORE] Removed duplicate methods in different files. 
+- [CHORE] Moved file system methods to ```files.js``` 
+- [CHORE] Removed unused imports of unused modules
+
+## [0.1.6] - 2018-11-11 - [7d55d0e65987690c69457409780cfef8d732bbd8]
+### Added 
+- [FEATURE] Install.sh now installs Node.js (if not installed)
+- [FEATURE] Tree-model package
+
+### Changed 
 - [CHORE] build.sh moved to ```./scripts``` 
 - [CHORE] install.sh moved to ```./scripts``` 
 - [CHORE] correct link pointing to ```./srcipts/build.sh``` for ```build``` command.
