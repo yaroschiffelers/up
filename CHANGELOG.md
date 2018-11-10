@@ -15,6 +15,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
+## [0.1.10] - 2018-11-11
+### Added
+- [FEATURE] Empty ```test``` function, callable with the ```-t``` flag. ```up -t```. 
+
+### Changed
+- [CHORE] Correct import of new utils object
+- [CHORE] Removed sub-module object names (utility). Import each method by hand from now on. Before this you had to pull in the complete sub-module: ```const { f } = require('./../utils')```. Changed the utils module; now contains all the utility methods. Import them like this: ``` const { filter, filterJunk } = require('./../utils').
+}
+ 
 ## [0.1.9] - 2018-11-11
 ### Added
 - [FEATURE] Core classes: Module, Action, Constructor 
