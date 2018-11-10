@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates 
 - See up.todo for a broad overview of MVP (v1.0.0) features. 
 
+## [0.1.12] - 2018-11-11
+### Added
+- file ```up/make.js```
+- Method: changeCommandName in ```up/make.js```. Setup only. Will make it easy for users to change the default ```up``` command into something they prefer.
+
 ## [0.1.11] - 2018-11-11
 ### Added
 - resetState method (mutation and action) in store.
