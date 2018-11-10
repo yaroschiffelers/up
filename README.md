@@ -2,6 +2,7 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/yaroschiffelers/up.svg?branch=master)](https://travis-ci.org/yaroschiffelers/up)
 
 > A modular command line framework to automate tasks and common work flows.
 
