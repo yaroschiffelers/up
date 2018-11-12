@@ -13,3 +13,6 @@ yarn-error.log
 
 idea/
 dist/
+
+up.sublime-project
+.je-project-settings/*
