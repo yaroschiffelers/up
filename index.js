@@ -31,7 +31,7 @@ global.__rootDir = path.resolve(__dirname)
  * Remove in production build.
  */
 const test = () => {
-    console.log('No test specified')
+    up.setAllModules()
 }
 
 /**
