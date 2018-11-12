@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - [FEATURE] Work flow templates
 - See up.todo for a broad overview of MVP (v1.0.0) features.
 
+## [0.1.15] - 2018-11-12
+### Changed
+- Internal logger clears the CLI before logging the up.config.messages.intro message (on startup).
+
 ## [0.1.14] - 2018-11-12
 ### Added
 - getAllModules method. Construct an array of which each item is an object containing the moduleName and its content. First step toward shortcuts and work flow support.
