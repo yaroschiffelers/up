@@ -163,6 +163,7 @@ if (!argv.length) {
     /**
      * Test command, for internal use/testing/debugging.
      * Calls the test() function.
+     * flag: -t
      */
     case '-t':
       test()
