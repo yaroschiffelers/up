@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 /**
  * @flow
  * @fileoverview Up - a modular command line framework.
@@ -41,6 +42,12 @@ const test = () => {
 const argv = process.argv.slice(2)
 
 /**
+ * Match string that begins with -
+ * @type {RegExp}
+ */
+const dashRe = /^-/
+
+/**
  * Initialize Up.
  * @type {Up}
  */
@@ -49,7 +56,7 @@ const up = new Up(config, store)
 /**
  * Clear the command line and show the intro message.
  */
-cli.clear(config.messages.intro)
+// cli.clear(config.messages.intro)
 
 /**
  * Temporary error handle.
@@ -115,9 +122,9 @@ if (!argv.length) {
    * Run Up the regular way.
    */
   runDefault()
-} else if (argv.length) {
+} else if (argv.length && dashRe.test(argv[0])) {
   /**
-   * Run Up with arguments.
+   * Run Up with flagged arguments.
    */
   switch (argv[0]) {
     /**
@@ -155,7 +162,7 @@ if (!argv.length) {
      * params: --change-command [name] - name of the new command.
      */
     case '--change-command':
-      console.log('Change command is still a work in process')
+      log('info', `Change command is still a work in process`)
       // const name = argv[1]
       // up.changeCommandName(bin, name)
       break
@@ -177,4 +184,13 @@ if (!argv.length) {
       log('info', `-h || Show help/info text.`)
       break
   }
+} else if (!dashRe.test(argv[0])) {
+  /**
+   * Run a module's action directly
+   * @type {[type]}
+   */
+  const modulename = argv[0]
+  const actionname = argv[1]
+  log('info', `module: ${modulename}`)
+  log('info', `action: ${actionname}`)
 }
